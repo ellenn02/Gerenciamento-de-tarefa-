@@ -1,0 +1,69 @@
+# Gerenciador de Tarefas em Python
+
+Este projeto é uma implementação simples de um gerenciador de tarefas em Python. O sistema permite adicionar novas tarefas, listar todas as tarefas com seus status (concluída ou pendente) e marcar tarefas como concluídas.
+
+## Funcionalidade
+
+- Adicionar novas tarefas com uma descrição.
+- Listar todas as tarefas, mostrando o status de cada uma (concluída ou pendente).
+- Marcar tarefas como concluídas.
+
+## Como Usar
+
+1. Clone o repositório para o seu ambiente local:
+    ```bash
+    git clone https://github.com/seu_usuario/nome_do_repositorio.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd nome_do_repositorio
+    ```
+
+3. Execute o script para testar as funcionalidades:
+    ```bash
+    python gerenciador_tarefas.py
+    ```
+
+   O script adiciona algumas tarefas de exemplo, lista as tarefas, marca uma tarefa como concluída e exibe a lista atualizada.
+
+## Exemplo de Uso
+
+Quando você executa o script, o seguinte fluxo ocorre:
+
+1. Adiciona tarefas de exemplo:
+    - Estudar Python
+    - Fazer exercício físico
+
+2. Lista todas as tarefas:
+    ```
+    1. estudar python - pendente
+    2. fazer exercicio fisico - pendente
+    ```
+
+3. Marca a tarefa "estudar python" como concluída.
+
+4. Lista as tarefas atualizadas:
+    ```
+    1. estudar python - concluida
+    2. fazer exercicio fisico - pendente
+    ```
+
+## Requisitos
+
+- Python 3.x
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você deseja melhorar o projeto ou corrigir problemas, por favor, siga as diretrizes abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch (`git checkout -b minha-contribuicao`).
+3. Faça suas alterações e commit (`git commit -am 'Adiciona nova funcionalidade'`).
+4. Faça push para a branch (`git push origin minha-contribuicao`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+

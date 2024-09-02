@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Ambiente Virtual
+venv/
+env/
+ENV/
+*.env
+
+# Arquivos temporários
+*.log
+*.tmp
+*.swp
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ncb
+*.sdf
+*.suo
+*.sw?
+
+# Outros
+*.DS_Store
+
+Projeto: Gerenciador de Tarefas em Python
+
+Descrição: Este projeto é uma implementação simples de um gerenciador de tarefas, desenvolvido em Python. O sistema permite adicionar tarefas, listar todas as tarefas com seu status atual (concluída ou pendente) e marcar tarefas como concluídas. O objetivo é fornecer uma maneira básica e funcional de gerenciar uma lista de tarefas.
+
+Objetivo:
+
+Implementar um sistema de gerenciamento de tarefas que permita adicionar, listar e concluir tarefas.
+Demonstrar o uso de listas e dicionários em Python para armazenar e manipular dados de tarefas.
+Tecnologias Utilizadas:
+
+Python 3.x
+Como Contribuir:
+
+Siga as instruções no README para contribuir com o projeto.
+Submeta Pull Requests com melhorias ou correções e descreva as mudanças realizadas.
